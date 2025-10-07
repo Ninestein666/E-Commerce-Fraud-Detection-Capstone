@@ -1,0 +1,13 @@
+column,dtype,description
+transaction_id,int,Unique transaction identifier.
+user_id,int,Anonymous user identifier.
+timestamp,datetime,Transaction timestamp (UTC).
+amount,float,Order amount in arbitrary currency units.
+country,category,ISO-like country code (synthetic).
+device,category,Access device used for the transaction.
+channel,category,Acquisition channel for the transaction.
+hour,int [0-23],Hour of day derived from timestamp.
+dayofweek,int [0=Mon ... 6=Sun],Day of week derived from timestamp.
+coupon_applied,"binary {0,1}",Whether a coupon was applied to the order.
+num_items,int,Number of items in the order (>=1).
+is_fraud,"binary {0,1}",Target label indicating fraudulent transaction.
