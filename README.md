@@ -29,12 +29,6 @@ The dataset contains the following:
 - Is_Fraud: Indicates whether the transaction was fraudulent (1 for fraud, 0 for non-fraud) (True/False)
 - Synthetic data generated to simulate real-world e-commerce transactions with no PII (Personally Identifiable Information).
 
-# Stages of Main Files
-- (Raw) Primary File: Dataset/Raw/transactions.csv
-- (Cleaned) Transformed File: Dataset/Cleaned/cleaned_transactions.csv
-- Enriched & Feature Engineered File: reports/tables/transaction_risk_scores.csv
-- Power BI Dashboard File: PowerBI/E-Commerce Fraud Detection.pbix
-
 # Project Purpose & Overview
 
 This project delivers a lightweight analytics pipeline to support day-to-day fraud operations:
@@ -66,9 +60,41 @@ Key decisions enabled
 5. Data Visualisation: Create plots and dashboards to communicate findings.
 6. Insights & Recommendations: Summarize findings, propose fraud mitigation strategies.
 
-#
+# Data Management:
+- (Raw) Primary File: Dataset/Raw/transactions.csv
+- (Cleaned) Transformed File: Dataset/Cleaned/cleaned_transactions.csv
+- Enriched & Feature Engineered File: reports/tables/transaction_risk_scores.csv
+- Data Visualisations Charts: reports/figures/
+- Power BI Dashboard File: PowerBI/E-Commerce Fraud Detection.pbix
 
 
+# Ethical Considerations:
+- Data Privacy: This dataset ensures no PII is used; synthetic data mitigates privacy risks. If real data were used in practice, strict data governance and anonymization protocols would be essential such as least privilege access, encryption, and compliance with regulations (e.g., GDPR).
+- Bias & Fairness: Vigilance against biases in fraud detection models is crucial to avoid unfairly targeting specific user groups. Regular audits and fairness assessments should be conducted to ensure equitable treatment across demographics.
+
+# Hypotheses and how to validate:
+
+H1: Fraud rates are higher on weekends compared to weekdays.
+- Validation: Compare fraud rates between weekends and weekdays using charts.
+- Evidence: reports/figures/04_fraud_rate_by_dayofweek.png
+
+H2: Fraudulent transactions are likely to have a higher average amount than non-fraudulent ones.
+- Validation: Compare average transaction amounts for fraudulent vs. non-fraudulent transactions using box plots.
+- Evidence: reports/figures/03_avg_amount_by_class.png
+
+H3: Certain countries have a higher incidence of fraud compared to others.
+- Validation: Analyze fraud rates by country using bar charts.
+- Evidence: reports/figures/06_fraud_rate_by_country_top10.png
+
+H4: Certain device types and channels are more commonly associated with fraudulent transactions.
+- Validation: Examine fraud rates by device type and channel using heat map.
+- Evidence: reports/figures/08_heatmap_device_by_channel.png
+
+H5: Non Fraudulent transactions are likely to be more frequent than fraudulent transactions.
+- Validation: Compare counts of fraudulent vs. non-fraudulent transactions using bar chart.
+- Evidence: reports/figures/01_class_balance.png
+
+The hypotheses can be validated by the visualisations provided in the reports/figures/ directory and Power BI dashboard. Each visualisation corresponds to a specific hypothesis and provides insights into the patterns and trends in the data.
 
 
-
+# Key Findings & Insights:
