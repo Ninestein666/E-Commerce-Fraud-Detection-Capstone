@@ -66,7 +66,7 @@ Key decisions enabled
 - Enriched & Feature Engineered File: reports/tables/transaction_risk_scores.csv
 - Data Visualisations Charts: reports/figures/
 - Power BI Dashboard File: PowerBI/E-Commerce Fraud Detection.pbix
-
+- Power BI Dashboard File Direct Download Link: https://drive.google.com/file/d/1K2Vjt9SIGJmdu0sCePsocEaRB0j4Jh_k/view?usp=sharing
 
 # Ethical Considerations:
 - Data Privacy: This dataset ensures no PII is used; synthetic data mitigates privacy risks. If real data were used in practice, strict data governance and anonymization protocols would be essential such as least privilege access, encryption, and compliance with regulations (e.g., GDPR).
@@ -98,3 +98,20 @@ The hypotheses can be validated by the visualisations provided in the reports/fi
 
 
 # Key Findings & Insights:
+
+- Fraud is imbalanced (about 6.43% overall)
+- Amounts are clearly higher on fraud; high spend should trigger step-up checks.
+- Time matters: days and hours show spikes, so I’d schedule staff/rules for those windows.
+- Segments matter: certain devices/channels/countries have noticeably higher fraud rates.
+- Coupons: 24.3% of all fraud transactions involved coupons
+- Risk bands: High transaction amounts correlate with higher fraud rates.
+
+Prevention Measures:
+
+Add additional checks on accounts when trying to make large transactions.
+
+Staff or tighten rules during high-risk windows for example on weekends when fraud is more likely.
+
+Apply stricter verification in the riskiest device–channel combos and countries for example Emails on a tablet.
+
+Add velocity/limits for coupon flows.
