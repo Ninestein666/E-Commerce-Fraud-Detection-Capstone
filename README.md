@@ -38,18 +38,27 @@ The dataset contains the following:
 # Project Purpose & Overview
 
 This project delivers a lightweight analytics pipeline to support day-to-day fraud operations:
-- ETL (Jupyter, Python): clean and standardise raw transactions.
-- EDA (Jupyter): quantify class imbalance, distribution shifts, time/segment hotspots.
-- Notebook Visualisations: simple, reproducible plots (matplotlib/seaborn).
+- ETL (Jupyter, Python): cleaned, standardised and validated raw data.
+- EDA (Jupyter): discovered trends, patterns and anomalies. Also performed feature engineering. Mean, Median, Cohen's d test and grouping analysis.
+- Notebook Visualisations: simple and easy to follow, reproducible plots (matplotlib/seaborn).
 - Power BI Dashboard: interactive, business-ready views for decision-makers.
 
 Key decisions enabled
 
-Thresholding: step-up checks for high-amount bands / high-risk bands.
-Scheduling: staff/rules during hot hours and peak day×hour pockets.
-Targeted controls: stricter checks for risky device×channel combos and countries.
-Promo safeguards: tighten coupon flows if fraud share is elevated.
+- Thresholding: step-up checks for high-amount bands / high-risk bands.
+- Scheduling: staff/rules during hot hours and peak day×hour pockets.
+- Targeted controls: stricter checks for risky device×channel combos and countries.
+- Promo safeguards: tighten coupon flows if fraud share is elevated.
+- Peaks in fraud rates by time of day and day of week.
 
+# Business Requirements
+
+- Quantify fraud rates by time, location, device, channel, amount bands and coupon usage.
+- Identify high-risk segments and patterns to inform fraud prevention strategies.
+- Provide actionable insights to reduce fraud incidence and financial losses.
+- Deliver clear, concise visualisations for technical and non-technical stakeholders.
+
+# Methodology
 
 
 
