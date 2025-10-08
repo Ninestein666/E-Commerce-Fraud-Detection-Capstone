@@ -58,7 +58,15 @@ Key decisions enabled
 - Provide actionable insights to reduce fraud incidence and financial losses.
 - Deliver clear, concise visualisations for technical and non-technical stakeholders.
 
-# Methodology
+# Methodology Steps:
+1. Business Understanding: Define objectives, understand fraud context, identify key metrics.
+2. Data Understanding: Explore dataset, assess quality, identify relevant features.
+3. Data Preparation: Clean, transform, and engineer features for analysis.
+4. Exploratory Data Analysis (EDA): Analyze data distributions, correlations, and patterns.
+5. Data Visualisation: Create plots and dashboards to communicate findings.
+6. Insights & Recommendations: Summarize findings, propose fraud mitigation strategies.
+
+#
 
 
 
