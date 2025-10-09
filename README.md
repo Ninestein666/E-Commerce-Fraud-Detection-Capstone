@@ -133,3 +133,36 @@ I used slicers, doughnut charts, heat maps, bar charts, pie chart and a decompos
 ![PowerBi Dashboard](PowerBI/PowerBi-Screenshot-2.png)
 
 
+# Best Practices:
+Coding & ETL:
+- Followed best practices for ETL steps: data extraction, cleaning, transformation, and loading.
+- Well documented steps with comments and markdown cells.
+- Modular code with functions for reusability.
+- Stored with clear file paths.
+
+Visualisations & Dashboard:
+- Clear titles, axis labels, legends, and annotations.
+- Use rates (%) whenever the target is imbalanced.
+- Keep visuals clean: Top N where categories explode; data labels ON for % charts.
+- Sort things in a human way (Mon→Sun, 0→23, bins from low→high).
+- Keep colours consistent for fraud vs non-fraud.
+
+# Bugs and Fixes:
+- Ploty gave me a few issues with rendering within Jupyter Notebooks. I switched to Matplotlib/Seaborn for static plots which worked better.
+- Pies/Donuts sometimes showed nothing → I set Values = Count of transaction_id, applied Top N, and used a visual-level filter (e.g., is_fraud = 1).
+- Had a few issues in PowerBi with rendering charts with "day" so i had to manually use an "elif" statement to assign day names. (e.g., 0 = Sunday, 1 = Monday, etc.)
+- Matrix looked noisy → background colour scale + Top N on categories
+
+# Project Review and Conclusion:
+
+
+# Maintainance & Evaluation Plan:
+
+
+# Ai Assistance:
+
+
+# How to run the code:
+
+
+# Credits & References:
