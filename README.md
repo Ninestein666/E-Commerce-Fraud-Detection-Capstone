@@ -119,3 +119,7 @@ Add velocity/limits for coupon flows.
 
 # Dashboard Visualisations:
 
+
+![PowerBi Dashboard](PowerBI/PowerBi-Screenshot.png)
+
+![PowerBi Dashboard](PowerBI/PowerBi-Screenshot-2.png)
