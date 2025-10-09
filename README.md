@@ -126,8 +126,10 @@ Add velocity/limits for coupon flows.
 - Promo: “coupons within fraud” pie and “fraud within coupon users”.
 - Risk Explorer: a Decomposition Tree to click through Low/Med/High by country/device/channel/hour.
 
-I used slicers, doughnut charts, heat maps, bar charts and a pie chart which are all interactive and user-friendly. There is also a description text box on each page explaining the charts and what they are showing.
+I used slicers, doughnut charts, heat maps, bar charts, pie chart and a decomposition tree which are all interactive and user-friendly. There is also a description text box on each page explaining the charts and what they are showing.
 
 ![PowerBi Dashboard](PowerBI/PowerBi-Screenshot.png)
 
 ![PowerBi Dashboard](PowerBI/PowerBi-Screenshot-2.png)
+
+
