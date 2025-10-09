@@ -119,5 +119,4 @@ Add velocity/limits for coupon flows.
 
 # Dashboard Visualisations:
 
-![Descriptive alt text](https://drive.google.com/file/d/1grOgZCsSeKu-Szqpivff3bOHUPCxTAtN/view?usp=sharing)
-![Descriptive alt text](https://drive.google.com/file/d/1-L16ZmWBb_WV-EXlfrBIGLYtzyHyi_xa/view?usp=sharing)
+![alt text](https://drive.google.com/file/d/1grOgZCsSeKu-Szqpivff3bOHUPCxTAtN/view?usp=drive_link)
