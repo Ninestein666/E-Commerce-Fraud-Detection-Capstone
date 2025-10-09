@@ -119,6 +119,14 @@ Add velocity/limits for coupon flows.
 
 # Dashboard Visualisations:
 
+- Overview: key KPIs (Total Tx, Fraud Tx, Fraud Rate %, Total Amount, Avg Fraud Amount), Top Fraud Countries (donut), Device×Channel heat matrix.
+- Time: fraud rate by day and hour, with labels turned on so the % is obvious; optional day×hour heat matrix.
+- Segments: fraud rate by device/channel/country (Top N for readability).
+- Amount & Basket: fraud rate by amount bins, average amount by class, and rate by num_items bins.
+- Promo: “coupons within fraud” pie and “fraud within coupon users”.
+- Risk Explorer: a Decomposition Tree to click through Low/Med/High by country/device/channel/hour.
+
+I used slicers, doughnut charts, heat maps, bar charts and a pie chart which are all interactive and user-friendly. There is also a description text box on each page explaining the charts and what they are showing.
 
 ![PowerBi Dashboard](PowerBI/PowerBi-Screenshot.png)
 
