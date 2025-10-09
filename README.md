@@ -52,6 +52,12 @@ Key decisions enabled
 - Provide actionable insights to reduce fraud incidence and financial losses.
 - Deliver clear, concise visualisations for technical and non-technical stakeholders.
 
+# Project Planning:
+- I used a Kanban board to plan and track my progress throughout this project. 
+https://github.com/users/Ninestein666/projects/3/views/1
+
+
+
 # Methodology Steps:
 1. Business Understanding: Define objectives, understand fraud context, identify key metrics.
 2. Data Understanding: Explore dataset, assess quality, identify relevant features.
