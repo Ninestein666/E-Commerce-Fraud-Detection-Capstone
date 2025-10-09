@@ -154,15 +154,39 @@ Visualisations & Dashboard:
 - Matrix looked noisy → background colour scale + Top N on categories
 
 # Project Review and Conclusion:
+Overall, the ETL process was easy and straightforward, thanks to the synthetic datset. There was no need for extensive data cleaning but all of the normal checks were still performed to ensure data quality. In the EDA we identifyed key patterns and trends, and also performed feature engineering and grouping, which helped to create a more robust model. The dashboard answers when, where, and how much fraud is happening and turns that into practical actions: step-up thresholds, staffing windows, segment-specific checks, and promo safeguards.The focus on rates over counts fits an imbalanced problem.
 
+Limitations:
+- The dataset is synthetic and may not capture all real-world complexities of e-commerce fraud.
+- The fraud rate is relatively low, which may limit the effectiveness of certain statistical analyses.
+
+Next steps:
+- Impliment a score calibration model over time to track changes in fraud patterns and effectiveness of controls. In a real world scenario, i would implement more collected data such as IP address, browser fingerprints, shipping vs billing address mismatches, etc. to paint a better picture of fraud patterns.
 
 # Maintainance & Evaluation Plan:
-
+- Refresh: monthly data import and dashboard refresh.
+- Watch these KPIs: Fraud Rate %, Fraud Count, share of High risk band, Avg Fraud Amount.
+- Drift checks: look at fraud rate by day/hour and by risk band each month.
 
 # Ai Assistance:
-
+I used AI tools such as ChatGPT and Github Copilot to help with code snippets, debugging, and helping with my README.md file layout. I ensured that all code was reviewed and understood before implementation to maintain code quality and integrity. I did find that the AI could handle small coding tasks well but struggled with larger and more complex tasks which was actually detrimental to my notebooks as it started causing errors and bugs. I therefore limited my use of AI to small tasks only. If AI is used in a professional setting, it is important to ensure that all code is reviewed and tested thoroughly to avoid potential issues.
 
 # How to run the code:
+Prereqs:
+- Python 3.12.8
+- Power BI Desktop (Windows)
+
+1. Copy Github HTTPS repo link
+2. Open VSCode > View > Command Palette > Git: Clone Repository > Paste link > Select local folder.
+3. Open the project folder in VSCode.
+4. Create and activate a virtual environment: Command Palette > Python: Create Environment > Select venv > Select Python 3.12.8 interpreter.
+5. In Jupyter Notebooks, Select Kernel > Python 3.12.8 (venv).
+6. Install dependencies: Open terminal > `pip install -r requirements.txt`
 
 
-# Credits & References:
+# Credits & Acknowledgements:
+- Dataset: Wafaa Elhusseini (Kaggle) - https://www.kaggle.com/datasets/wafaaelhusseini/synthetic-fraud-transactions
+- Code Institute for the project structure and Assessment criteria.
+- ChatGPT and Github Copilot for code snippets and debugging assistance.
+- To Vasi and the team at Code Institute for their Teaching, Support and Guidance, which has gotten me from a complete beginner to being able to complete this project.
+Thank you for taking the time to review my project!
