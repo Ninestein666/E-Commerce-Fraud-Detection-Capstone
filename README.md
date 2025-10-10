@@ -72,7 +72,7 @@ https://github.com/users/Ninestein666/projects/3/views/1
 - Enriched & Feature Engineered File: reports/tables/transaction_risk_scores.csv
 - Data Visualisations Charts: reports/figures/
 - Power BI Dashboard File: PowerBI/E-Commerce Fraud Detection.pbix
-- Power BI Dashboard File Direct Download Link: https://drive.google.com/file/d/1K2Vjt9SIGJmdu0sCePsocEaRB0j4Jh_k/view?usp=sharing
+- Power BI Dashboard File Direct Download Link: https://drive.google.com/file/d/1U7WDRa2uH049cMFuB_ahe8Yvsr0ovLoN/view?usp=sharing
 
 # Ethical Considerations:
 - Data Privacy: This dataset ensures no PII is used; synthetic data mitigates privacy risks. If real data were used in practice, strict data governance and anonymization protocols would be essential such as least privilege access, encryption, and compliance with regulations (e.g., GDPR).
