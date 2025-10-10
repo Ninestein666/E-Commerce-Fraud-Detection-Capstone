@@ -114,13 +114,13 @@ The hypotheses can be validated by the visualisations provided in the reports/fi
 
 Prevention Measures:
 
-Add additional checks on accounts when trying to make large transactions.
+- Add additional checks on accounts when trying to make large transactions.
 
-Staff or tighten rules during high-risk windows for example on weekends when fraud is more likely.
+- Staff or tighten rules during high-risk windows for example on weekends when fraud is more likely.
 
-Apply stricter verification in the riskiest device–channel combos and countries for example Emails on a tablet.
+- Apply stricter verification in the riskiest device–channel combos and countries for example Emails on a tablet.
 
-Add velocity/limits for coupon flows.
+- Add velocity/limits for coupon flows.
 
 
 # Dashboard Visualisations:
@@ -152,6 +152,9 @@ Visualisations & Dashboard:
 - Keep visuals clean: Top N where categories explode; data labels ON for % charts.
 - Sort things in a human way (Mon→Sun, 0→23, bins from low→high).
 - Keep colours consistent for fraud vs non-fraud.
+
+Stats and Probability:
+- See Stats Primer (Stats & Probability Primer (What we use & why)) in EDA notebook.
 
 # Bugs and Fixes:
 - Ploty gave me a few issues with rendering within Jupyter Notebooks. I switched to Matplotlib/Seaborn for static plots which worked better.
