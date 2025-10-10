@@ -138,6 +138,21 @@ I used slicers, doughnut charts, heat maps, bar charts, pie chart and a decompos
 
 ![PowerBi Dashboard](PowerBI/PowerBi-Screenshot-2.png)
 
+# Baseline Classification Model (Logistic Regression)
+- location: jupyter_notebooks/Logistic_Regression-Modeling.ipynb
+- Model: Logistic Regression (balanced)
+- Turn our EDA insights into a simple, explainable AI baseline for flagging risky transactions.
+
+Setup:
+- Logistic Regression with `class_weight='balanced'` on features: Amount, Hour, Day_of_Week, Country, Device_Type, Channel, Coupon_Applied. Categorical features one-hot encoded in a scikit-learn pipeline.
+
+Key Results: Avaliable in the notebook with optional model saving code at the end.
+
+Takeaways:
+- The model prioritises recall (catch more fraud) in an imbalanced setting.
+- EDA signals (time, amount, device×channel, country) help prediction.
+- This is a baseline: in future iterations, we could explore more complex models and features.
+
 
 # Best Practices:
 Coding & ETL:
