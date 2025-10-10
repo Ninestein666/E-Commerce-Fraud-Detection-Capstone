@@ -192,6 +192,20 @@ Next steps:
 - Watch these KPIs: Fraud Rate %, Fraud Count, share of High risk band, Avg Fraud Amount.
 - Drift checks: look at fraud rate by day/hour and by risk band each month.
 
+# Personal Reflection & Continuous Learning
+
+This project made me combine cleaning, EDA and dashboarding end-to-end. I learned to handle class imbalance by focusing on rates, when to use Welch’s t-test for unequal variances, and how to turn findings into practical controls (step-up checks, targeted rules, better scheduling). I also tried Power BI for the second time and now I’m a lot more confident explaining results to non-technical stakeholders without losing the technical accuracy.
+
+# My Development Roadmap
+1. Compare tree-based models with logistic regression and tune thresholds to business costs.  
+2. Engineer behavioural/velocity features (e.g., attempts per user/device/channel/time window).  
+3. Add model monitoring (monthly drift checks, alerts for spikes in fraud rate by segment).  
+4. Explore real-time scoring patterns and basic feature pipelines.  
+5. Improve dashboard UX (accessibility, guided drill-downs, clearer tooltips).  
+6. Go deeper on fairness & privacy (bias audits, privacy-preserving feature design) so this would stand up to governance in production.
+7. Further my knowledge in machine learning. I relied on AI tools for this section quite heavily compared to the rest of the project and would like to be able to do this independently in the future.
+
+
 # Ai Assistance:
 I used AI tools such as ChatGPT and Github Copilot to help with code snippets, debugging, and helping with my README.md file layout. I ensured that all code was reviewed and understood before implementation to maintain code quality and integrity. I did find that the AI could handle small coding tasks well but struggled with larger and more complex tasks which was actually detrimental to my notebooks as it started causing errors and bugs. I therefore limited my use of AI to small tasks only. If AI is used in a professional setting, it is important to ensure that all code is reviewed and tested thoroughly to avoid potential issues.
 
